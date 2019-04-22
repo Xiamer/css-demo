@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>place-self</title>
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 50px);
+        grid-template-rows: repeat(3, 30px);
+      }
+      .item-1 {
+        place-self: center center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <span class="item item-1">1</span>
+    </div>
+  </body>
+</html>

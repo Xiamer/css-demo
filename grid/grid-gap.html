@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>grid-gap</title>
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 100px 50px 100px;
+        grid-template-rows: 80px auto 80px;
+        grid-gap: 15px 10px;
+        /* grid-row-gap: 15px;
+        grid-column-gap: 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <span class="item item-1">1</span>
+      <span class="item item-2">2</span>
+      <span class="item item-3">3</span>
+      <span class="item item-4">4</span>
+      <span class="item item-5">5</span>
+      <span class="item item-6">6</span>
+      <span class="item item-7">7</span>
+      <span class="item item-8">8</span>
+      <span class="item item-9">9</span>
+    </div>
+  </body>
+</html>

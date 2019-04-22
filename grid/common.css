@@ -1,0 +1,33 @@
+html,
+body {
+  color: #fff;
+}
+
+/* 颜色选择 https://flatuicolors.com/palette/defo  */
+.item-1 {
+  background: #1abc9c;
+}
+.item-2 {
+  background: #2ecc71;
+}
+.item-3 {
+  background: #3498db;
+}
+.item-4 {
+  background: #9b59b6;
+}
+.item-5 {
+  background: #34495e;
+}
+.item-6 {
+  background: #f1c40f;
+}
+.item-7 {
+  background: #e67e22;
+}
+.item-8 {
+  background: #e74c3c;
+}
+.item-9 {
+  background: #f39c12;
+}
