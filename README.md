@@ -1,1 +1,1 @@
-This is a daily css exercise
+This is a daily css exercise.
